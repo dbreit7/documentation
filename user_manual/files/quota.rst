@@ -24,9 +24,9 @@ Encrypted files are a little larger than unencrypted files; the unencrypted size
 is calculated against your quota.
 
 Deleted files that are still in the trash bin do not count against quotas. The 
-trash bin is set at 50% of quota. Deleted file aging is set at 30 days. When 
-deleted files exceed 50% of quota then the oldest files are removed until the 
-total is below 50%.
+trash bin quota is set at 50% of your total quota. Deleted file aging is set at 
+30 days. When deleted files exceed 50% of quota, then the oldest files are removed 
+until the total is below 50%.
 
 .. note:: Your administrator may have configured the trash bin retention period 
    to override the storage space management. See `administrator documentation <https://docs.nextcloud.com/server/latest/admin_manual/configuration_server/config_sample_php_parameters.html#deleted-items-trash-bin>`_ for more details.
